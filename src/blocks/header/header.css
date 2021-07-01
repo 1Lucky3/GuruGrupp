@@ -1,0 +1,13 @@
+.header {
+  height: 50px;
+  width: 100%;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+}
+
+.wrapper {
+  height: 25px;
+  padding-top: 25px;
+  padding-left: 20%;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,35 @@
+.card-wrapper__compare {
+  position: absolute;
+  right: 12px;
+  bottom: 74px;
+  height: 24px;
+  width: 24px;
+}
+
+.card-wrapper__compare-icon:hover {
+  content: url(./sravnit-green.svg);
+}
+
+.card-wrapper__compare-checkbox {
+  display: none;
+}
+
+.card-wrapper__compare-icon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background: url(./sravnit.svg);
+}
+
+.card-wrapper__compare-icon::before {
+  content: "";
+}
+
+.card-wrapper__compare-checkbox:checked + .card-wrapper__compare-icon::before {
+  content: url(./sravnit-checked.svg);
+}
+
+.card-wrapper__compare-checkbox:checked + .card-wrapper__compare-icon:hover {
+  content: "";
+}
+/*# sourceMappingURL=compare-icon.css.map */

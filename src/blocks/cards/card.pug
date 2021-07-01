@@ -1,0 +1,30 @@
+mixin addCard(idNumber)
+  .card-wrapper
+    .card-wrapper__picture
+      .card-wrapper__compare
+        label.card-wrapper__compare-input
+          input(type="checkbox", class="card-wrapper__compare-checkbox")
+          span.card-wrapper__compare-icon
+      .card-wrapper__like
+        label.card-wrapper__like-input
+          input(type="checkbox", class="card-wrapper__like-checkbox")
+          span.card-wrapper__like-icon
+      .card-wrapper__slider-buttons
+        span.card-wrapper__button1
+        span.card-wrapper__button2
+        span.card-wrapper__button3
+        span.card-wrapper__button4
+    .card-wrapper__info
+      div(class="card-wrapper__star-icon" id="star-icon"+idNumber)
+      div(class="card-wrapper__delivery-icon" id="delivery-icon"+idNumber)
+      .card-wrapper__old-price-wrapper
+        div(class="card-wrapper__old-price" id="old-price"+idNumber)
+        span.card-wrapper__roubl-symbol
+        .card-wrapper__poloska
+      .card-wrapper__price-wrapper
+        div(class="card-wrapper__current-price" id="current-price"+idNumber)
+        span.card-wrapper__roubl-symbol1
+      div(class="card-wrapper__card-name" id="card-name"+idNumber) 
+      .card-wrapper__city-date
+        span(class="card-wrapper__city" id="city"+idNumber)
+        span(class="card-wrapper__date" id="date"+idNumber) 

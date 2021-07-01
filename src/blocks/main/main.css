@@ -1,0 +1,13 @@
+.main__container {
+  margin-left: 15%;
+  margin-top: 8px;
+  width: 968px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+/*# sourceMappingURL=main.css.map */

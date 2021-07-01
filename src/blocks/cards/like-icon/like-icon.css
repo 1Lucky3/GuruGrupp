@@ -1,0 +1,35 @@
+.card-wrapper__like {
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  right: 14px;
+  bottom: 36px;
+}
+
+.card-wrapper__like-icon:hover {
+  content: url(./like-icon_green.svg);
+}
+
+.card-wrapper__like-checkbox {
+  display: none;
+}
+
+.card-wrapper__like-icon {
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  background: url(./like-icon.svg);
+}
+
+.card-wrapper__like-icon::before {
+  content: "";
+}
+
+.card-wrapper__like-checkbox:checked + .card-wrapper__like-icon::before {
+  content: url(./like-icon-checked.svg);
+}
+
+.card-wrapper__like-checkbox:checked + .card-wrapper__like-icon:hover {
+  content: "";
+}
+/*# sourceMappingURL=like-icon.css.map */
